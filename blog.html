@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog | FietsVakwerk Voorbeeld Amsterdam</title>
+  <meta name="description" content="Lees de nieuwste artikelen over gezondheid, preventie en medische innovatie van de specialisten van FietsVakwerk Voorbeeld Amsterdam.">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.8/dist/iconify-icon.min.js"></script>
+</head>
+<body>
+
+<!-- ========== NAVBAR ========== -->
+<nav class="navbar" id="navbar">
+  <div class="container">
+    <a href="/" class="nav-logo">Med<span>Care</span></a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html#about">Over Ons</a></li>
+      <li><a href="index.html#services">Diensten</a></li>
+      <li><a href="index.html#projects">Resultaten</a></li>
+      <li><a href="index.html#team">Team</a></li>
+      <li><a href="blog.html">Blog</a></li>
+    </ul>
+    <a href="index.html#cta" class="nav-cta">Afspraak Maken</a>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- ========== PAGE HERO ========== -->
+<section class="page-hero">
+  <div class="container">
+    <div class="badge">blog</div>
+    <h1>Medisch <span>Tips</span> & Tips</h1>
+    <p>Praktische inzichten en de nieuwste ontwikkelingen in de gezondheidszorg, door onze specialisten.</p>
+  </div>
+</section>
+
+<!-- ========== BLOG GRID ========== -->
+<section class="blog-grid-section">
+  <div class="container">
+    <div class="blog-grid">
+      <article class="blog-card">
+        <img src="images/carousel.jpg" alt="E-bikesve gezondheidscheck" loading="lazy">
+        <div class="blog-card-body">
+          <span class="blog-tag">E-bikes</span>
+          <h3>Waarom een Jaarlijkse Reparatiescheck Essentieel Is</h3>
+          <p>Ontdek hoe regelmatige screenings ernstige aandoeningen vroegtijdig kunnen opsporen en uw levensverwachting verlengen.</p>
+          <div class="blog-meta">
+            <span>12 april 2026</span>
+            <span>5 min lezen</span>
+          </div>
+        </div>
+      </article>
+      <article class="blog-card">
+        <img src="images/detail.jpg" alt="Bandene behandelingen trends" loading="lazy">
+        <div class="blog-card-body">
+          <span class="blog-tag">Banden</span>
+          <h3>De Tipste Trends in Bandene Onderhoud 2026</h3>
+          <p>Van biostimulerende fillers tot non-invasieve huidverjonging — wat u moet weten over de behandelingen van morgen.</p>
+          <div class="blog-meta">
+            <span>8 april 2026</span>
+            <span>7 min lezen</span>
+          </div>
+        </div>
+      </article>
+      <article class="blog-card">
+        <img src="images/craft.jpg" alt="Fysiotherapie na sportblessure" loading="lazy">
+        <div class="blog-card-body">
+          <span class="blog-tag">Fysiotherapie</span>
+          <h3>Sneller Herstellen na een Sportblessure: 5 Bewezen Tips</h3>
+          <p>Onze fysiotherapeuten delen hun beste advies voor een effectief hersteltraject na blessures.</p>
+          <div class="blog-meta">
+            <span>3 april 2026</span>
+            <span>6 min lezen</span>
+          </div>
+        </div>
+      </article>
+      <article class="blog-card">
+        <img src="images/about.jpg" alt="Huidverzorging winter" loading="lazy">
+        <div class="blog-card-body">
+          <span class="blog-tag">Custom builds</span>
+          <h3>Optimale Huidverzorging: Meer dan Alleen Cremes</h3>
+          <p>Een dermatoloog legt uit welke factoren echt bijdragen aan een gezonde huid — van voeding tot slaap.</p>
+          <div class="blog-meta">
+            <span>28 maart 2026</span>
+            <span>4 min lezen</span>
+          </div>
+        </div>
+      </article>
+      <article class="blog-card">
+        <img src="images/project1.jpg" alt="Winterklaar innovatie" loading="lazy">
+        <div class="blog-card-body">
+          <span class="blog-tag">Winterklaar</span>
+          <h3>Ooglaserbehandelingen: Veiligheid en Resultaten in 2026</h3>
+          <p>Alles over de nieuwste technieken in refractiechirurgie en wat u kunt verwachten van een ooglaserbehandeling.</p>
+          <div class="blog-meta">
+            <span>22 maart 2026</span>
+            <span>8 min lezen</span>
+          </div>
+        </div>
+      </article>
+      <article class="blog-card">
+        <img src="images/project2.jpg" alt="Huisarts digitaal" loading="lazy">
+        <div class="blog-card-body">
+          <span class="blog-tag">Reparatie</span>
+          <h3>De Toekomst van Reparatie: Digitaal en Persoonlijk</h3>
+          <p>Hoe technologie de huisartsenpraktijk transformeert zonder de persoonlijke band te verliezen.</p>
+          <div class="blog-meta">
+            <span>15 maart 2026</span>
+            <span>5 min lezen</span>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ========== CTA ========== -->
+<section class="cta" id="cta">
+  <div class="cta-bg"></div>
+  <div class="container">
+    <div class="cta-content">
+      <div class="badge">contact</div>
+      <h2>Vragen? <span>Wij Helpen</span> U Graag</h2>
+      <p>Neem contact op met ons team voor een vrijblijvend adviesgesprek of maak direct een afspraak.</p>
+      <a href="#" class="btn-primary">
+        <i data-lucide="calendar"></i> Plan Uw Afspraak
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ========== FOOTER ========== -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="/" class="nav-logo">Med<span>Care</span></a>
+        <p>FietsVakwerk Voorbeeld Amsterdam. Hoogwaardige medische zorg met persoonlijke aandacht. Al meer dan 15 jaar uw vertrouwde partner voor gezondheid.</p>
+      </div>
+      <div>
+        <h4>Diensten</h4>
+        <ul>
+          <li><a href="index.html#services">Reparatie</a></li>
+          <li><a href="index.html#services">Banden</a></li>
+          <li><a href="index.html#services">Fysiotherapie</a></li>
+          <li><a href="index.html#services">Custom builds</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Fietsenmaker</h4>
+        <ul>
+          <li><a href="index.html#about">Over Ons</a></li>
+          <li><a href="index.html#team">Ons Team</a></li>
+          <li><a href="index.html#projects">Resultaten</a></li>
+          <li><a href="blog.html">Blog</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="#">Keizersgracht 112, Amsterdam</a></li>
+          <li><a href="tel:+31201234567">020 - 123 4567</a></li>
+          <li><a href="mailto:info@medcarefietsenmaker.nl">info@medcarefietsenmaker.nl</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; 2026 FietsVakwerk Voorbeeld Amsterdam. Alle rechten voorbehouden.
+    </div>
+  </div>
+</footer>
+
+<script>
+  lucide.createIcons();
+  gsap.registerPlugin(ScrollTrigger);
+
+  // Navbar scroll
+  window.addEventListener('scroll', () => {
+    document.getElementById('navbar').classList.toggle('scrolled', window.scrollY > 50);
+  });
+
+  // Hamburger
+  document.getElementById('hamburger').addEventListener('click', () => {
+    document.getElementById('navLinks').classList.toggle('open');
+  });
+
+  // Page hero
+  gsap.from('.page-hero .badge', { opacity: 0, y: 20, duration: .6, delay: .2 });
+  gsap.from('.page-hero h1', { opacity: 0, y: 30, duration: .8, delay: .4 });
+  gsap.from('.page-hero p', { opacity: 0, y: 20, duration: .6, delay: .6 });
+
+  // Blog cards
+  gsap.from('.blog-card', {
+    scrollTrigger: { trigger: '.blog-grid-section', start: 'top 80%' },
+    opacity: 0, y: 50, duration: .7, stagger: .12
+  });
+
+  // CTA
+  gsap.from('.cta-content', {
+    scrollTrigger: { trigger: '.cta', start: 'top 80%' },
+    opacity: 0, y: 40, duration: 1
+  });
+</script>
+</body>
+</html>

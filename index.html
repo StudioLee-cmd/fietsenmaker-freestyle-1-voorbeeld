@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>FietsVakwerk — Fietsenmaker Amsterdam</title>
+<meta name="description" content="FietsVakwerk is uw vakkundige fietsenmaker in Amsterdam. Reparatie, onderhoud, e-bike service en custom builds door ervaren monteurs.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<script src="https://unpkg.com/lucide@latest"></script>
+  <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.8/dist/iconify-icon.min.js"></script>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar" id="navbar">
+  <div class="container nav-inner">
+    <a href="#" class="logo">Fiets<span>Vakwerk</span></a>
+    <button class="nav-toggle" id="navToggle" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#diensten">Diensten</a></li>
+      <li><a href="#over">Over ons</a></li>
+      <li><a href="#projecten">Projecten</a></li>
+      <li><a href="#proces">Werkwijze</a></li>
+      <li><a href="#blog">Blog</a></li>
+      <li><a href="#contact" class="btn btn-nav">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- HERO -->
+<header class="hero" id="hero">
+  <div class="hero-bg">
+    <img src="images/hero.jpg" alt="FietsVakwerk werkplaats Amsterdam">
+  </div>
+  <div class="hero-overlay"></div>
+  <div class="container hero-content">
+    <span class="badge" data-animate="fade-down">fietsenmakers</span>
+    <h1 data-animate="fade-up">Vakmanschap<br>op twee wielen</h1>
+    <p data-animate="fade-up" data-delay="0.15">Reparatie, onderhoud en custom builds door de beste fietsenmakers van Amsterdam. Rijdt u morgen weer zorgeloos.</p>
+    <div class="hero-btns" data-animate="fade-up" data-delay="0.3">
+      <a href="#contact" class="btn btn-primary">Afspraak maken</a>
+      <a href="#diensten" class="btn btn-outline">Onze diensten</a>
+    </div>
+  </div>
+  <div class="hero-scroll" data-animate="fade-up" data-delay="0.5">
+    <span>Scroll</span>
+    <div class="scroll-line"></div>
+  </div>
+</header>
+
+<!-- TICKER -->
+<div class="ticker">
+  <div class="ticker-track">
+    <span>Reparatie</span><span>&bull;</span>
+    <span>Onderhoud</span><span>&bull;</span>
+    <span>E-bike service</span><span>&bull;</span>
+    <span>Banden &amp; wielen</span><span>&bull;</span>
+    <span>Custom builds</span><span>&bull;</span>
+    <span>Winterklaar</span><span>&bull;</span>
+    <span>Reparatie</span><span>&bull;</span>
+    <span>Onderhoud</span><span>&bull;</span>
+    <span>E-bike service</span><span>&bull;</span>
+    <span>Banden &amp; wielen</span><span>&bull;</span>
+    <span>Custom builds</span><span>&bull;</span>
+    <span>Winterklaar</span><span>&bull;</span>
+  </div>
+</div>
+
+
+  <!-- ======================== BEFORE / AFTER ======================== -->
+  <section class="ba-section" style="height:100vh;position:relative;overflow:hidden;background:#000;">
+    <div style="width:100%;height:100%;position:relative;">
+      <img src="images/craft.jpg" alt="Na" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1;">
+      <img src="images/hero.jpg" alt="Voor" id="baBefore" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:2;">
+      <div id="baLabel" style="position:absolute;z-index:3;bottom:10%;left:50%;transform:translateX(-50%);text-align:center;opacity:0;">
+        <span style="display:inline-block;background:var(--color-accent,#C1FF72);color:#0a0a0a;padding:8px 20px;border-radius:99px;font-size:0.75rem;font-weight:700;text-transform:uppercase;letter-spacing:0.1em;margin-bottom:16px;">Scroll om te zien</span>
+        <h2 style="font-size:clamp(2rem,5vw,3.5rem);font-weight:900;line-height:1.15;color:#fff;text-shadow:0 4px 20px rgba(0,0,0,0.6);">Van oud naar <em style="color:var(--color-accent,#C1FF72);">nieuw</em></h2>
+      </div>
+    </div>
+  </section>
+<!-- DIENSTEN -->
+<section class="section diensten" id="diensten">
+  <div class="container">
+    <span class="section-label" data-animate="fade-up">Wat wij doen</span>
+    <h2 class="section-title" data-animate="fade-up">Onze diensten</h2>
+    <div class="services-grid">
+      <div class="service-card" data-animate="fade-up" data-delay="0">
+        <div class="service-icon"><i data-lucide="bike"></i></div>
+        <h3>Reparatie</h3>
+        <p>Snelle en vakkundige reparaties van elk type fiets. Van lekke band tot complete revisie.</p>
+      </div>
+      <div class="service-card" data-animate="fade-up" data-delay="0.08">
+        <div class="service-icon"><i data-lucide="wrench"></i></div>
+        <h3>Onderhoud</h3>
+        <p>Periodiek onderhoud zorgt voor een langere levensduur en veiliger rijgedrag.</p>
+      </div>
+      <div class="service-card" data-animate="fade-up" data-delay="0.16">
+        <div class="service-icon"><i data-lucide="zap"></i></div>
+        <h3>E-bike service</h3>
+        <p>Gespecialiseerd in elektrische fietsen. Diagnose, software-updates en accuonderhoud.</p>
+      </div>
+      <div class="service-card" data-animate="fade-up" data-delay="0.24">
+        <div class="service-icon"><i data-lucide="circle"></i></div>
+        <h3>Banden &amp; wielen</h3>
+        <p>Bandenwissels, spaakspanning en wielrichten voor een soepele en veilige rit.</p>
+      </div>
+      <div class="service-card" data-animate="fade-up" data-delay="0.32">
+        <div class="service-icon"><i data-lucide="settings"></i></div>
+        <h3>Custom builds</h3>
+        <p>Laat uw droomfiets bouwen. Van framekeuze tot laatste afwerking, alles op maat.</p>
+      </div>
+      <div class="service-card" data-animate="fade-up" data-delay="0.4">
+        <div class="service-icon"><i data-lucide="snowflake"></i></div>
+        <h3>Winterklaar</h3>
+        <p>Maak uw fiets winterklaar met onze seizoenscheck. Veilig door regen, wind en vorst.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- OVER ONS -->
+<section class="section over" id="over">
+  <div class="container over-grid">
+    <div class="over-images" data-animate="fade-right">
+      <div class="over-img-main"><img src="images/about.jpg" alt="FietsVakwerk team"></div>
+      <div class="over-img-float"><img src="images/detail.jpg" alt="Detail werk"></div>
+    </div>
+    <div class="over-text" data-animate="fade-left">
+      <span class="section-label">Over FietsVakwerk</span>
+      <h2 class="section-title">Al 15 jaar de fietsenmaker van Amsterdam</h2>
+      <p>Wat begon als een kleine werkplaats in de Jordaan is uitgegroeid tot een van de meest vertrouwde fietsenwerkplaatsen van de stad. Ons team van zes ervaren monteurs staat dagelijks klaar om elke fiets — van stadsfiets tot race-machine — in topconditie te brengen.</p>
+      <p>Wij geloven dat een goed onderhouden fiets niet alleen veiliger is, maar ook meer plezier geeft. Daarom combineren we traditioneel vakmanschap met de nieuwste technieken en onderdelen.</p>
+      <div class="over-stats">
+        <div class="stat">
+          <span class="stat-num" data-count="15">0</span>
+          <span class="stat-label">Jaar ervaring</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num" data-count="12000">0</span>
+          <span class="stat-label">Fietsen gerepareerd</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num" data-count="6">0</span>
+          <span class="stat-label">Monteurs</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTEN CAROUSEL -->
+<section class="section projecten" id="projecten">
+  <div class="container">
+    <span class="section-label" data-animate="fade-up">Recent werk</span>
+    <h2 class="section-title" data-animate="fade-up">Uitgelichte projecten</h2>
+  </div>
+  <div class="carousel" data-animate="fade-up">
+    <div class="carousel-track">
+      <div class="carousel-slide">
+        <img src="images/project1.jpg" alt="Custom racefiets build">
+        <div class="carousel-caption"><h3>Custom racefiets</h3><p>Complete titanium build op maat</p></div>
+      </div>
+      <div class="carousel-slide">
+        <img src="images/project2.jpg" alt="E-bike restauratie">
+        <div class="carousel-caption"><h3>E-bike restauratie</h3><p>Vintage frame met moderne aandrijving</p></div>
+      </div>
+      <div class="carousel-slide">
+        <img src="images/craft.jpg" alt="Wielset opbouw">
+        <div class="carousel-caption"><h3>Handgebouwde wielen</h3><p>Lichtgewicht carbon wielset</p></div>
+      </div>
+      <div class="carousel-slide">
+        <img src="images/carousel.jpg" alt="Stadsfiets renovatie">
+        <div class="carousel-caption"><h3>Stadsfiets renovatie</h3><p>Compleet vernieuwd voor dagelijks gebruik</p></div>
+      </div>
+    </div>
+    <div class="carousel-controls">
+      <button class="carousel-btn prev" aria-label="Vorige"><i data-lucide="chevron-left"></i></button>
+      <button class="carousel-btn next" aria-label="Volgende"><i data-lucide="chevron-right"></i></button>
+    </div>
+  </div>
+</section>
+
+<!-- WERKWIJZE / PROCES -->
+<section class="section proces" id="proces">
+  <div class="container">
+    <span class="section-label" data-animate="fade-up">Hoe wij werken</span>
+    <h2 class="section-title" data-animate="fade-up">Ons proces</h2>
+    <div class="timeline">
+      <div class="timeline-item" data-animate="fade-up" data-delay="0">
+        <div class="timeline-num">01</div>
+        <div class="timeline-content">
+          <h3>Intake &amp; diagnose</h3>
+          <p>U brengt uw fiets langs of maakt online een afspraak. Wij beoordelen de staat en stellen een diagnose.</p>
+        </div>
+      </div>
+      <div class="timeline-item" data-animate="fade-up" data-delay="0.1">
+        <div class="timeline-num">02</div>
+        <div class="timeline-content">
+          <h3>Offerte &amp; overleg</h3>
+          <p>U ontvangt een heldere prijsopgave. Geen verrassingen achteraf, altijd in overleg.</p>
+        </div>
+      </div>
+      <div class="timeline-item" data-animate="fade-up" data-delay="0.2">
+        <div class="timeline-num">03</div>
+        <div class="timeline-content">
+          <h3>Reparatie of bouw</h3>
+          <p>Onze monteurs gaan aan de slag met de beste onderdelen en gereedschappen.</p>
+        </div>
+      </div>
+      <div class="timeline-item" data-animate="fade-up" data-delay="0.3">
+        <div class="timeline-num">04</div>
+        <div class="timeline-content">
+          <h3>Kwaliteitscheck &amp; ophalen</h3>
+          <p>Elke fiets wordt getest voordat u hem ophaalt. Rijklaar en met garantie.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TEAM -->
+<section class="section team-section">
+  <div class="container team-grid">
+    <div class="team-text" data-animate="fade-right">
+      <span class="section-label">Het team</span>
+      <h2 class="section-title">Mensen met passie voor fietsen</h2>
+      <p>Ons team bestaat uit zes monteurs die allemaal dezelfde passie delen: fietsen beter maken. Van de ervaren meester-monteur tot de enthousiaste leerling — iedereen draagt bij aan de kwaliteit waar FietsVakwerk om bekend staat.</p>
+      <a href="#contact" class="btn btn-primary">Maak kennis</a>
+    </div>
+    <div class="team-img" data-animate="fade-left">
+      <img src="images/team.jpg" alt="Team FietsVakwerk">
+    </div>
+  </div>
+</section>
+
+<!-- BLOG -->
+<section class="section blog" id="blog">
+  <div class="container">
+    <span class="section-label" data-animate="fade-up">Blog</span>
+    <h2 class="section-title" data-animate="fade-up">Tips &amp; inzichten</h2>
+    <div class="blog-grid">
+      <article class="blog-card" data-animate="fade-up" data-delay="0">
+        <div class="blog-img"><img src="images/craft.jpg" alt="Fiets onderhoud tips"></div>
+        <div class="blog-body">
+          <span class="blog-tag">Onderhoud</span>
+          <h3>5 onderhoudstips die elke fietser moet kennen</h3>
+          <p>Met deze eenvoudige tips houdt u uw fiets in topconditie en voorkomt u dure reparaties.</p>
+          <a href="#" class="blog-link">Lees meer &rarr;</a>
+        </div>
+      </article>
+      <article class="blog-card" data-animate="fade-up" data-delay="0.08">
+        <div class="blog-img"><img src="images/detail.jpg" alt="E-bike accu"></div>
+        <div class="blog-body">
+          <span class="blog-tag">E-bike</span>
+          <h3>Zo verlengt u de levensduur van uw e-bike accu</h3>
+          <p>De accu is het hart van uw e-bike. Leer hoe u er optimaal mee omgaat.</p>
+          <a href="#" class="blog-link">Lees meer &rarr;</a>
+        </div>
+      </article>
+      <article class="blog-card" data-animate="fade-up" data-delay="0.16">
+        <div class="blog-img"><img src="images/kitchen.jpg" alt="Winterklaar fiets"></div>
+        <div class="blog-body">
+          <span class="blog-tag">Seizoen</span>
+          <h3>Winterklaar maken: de complete checklist</h3>
+          <p>Bereid uw fiets voor op het koude seizoen met onze stap-voor-stap gids.</p>
+          <a href="#" class="blog-link">Lees meer &rarr;</a>
+        </div>
+      </article>
+      <article class="blog-card" data-animate="fade-up" data-delay="0.24">
+        <div class="blog-img"><img src="images/project1.jpg" alt="Custom fiets"></div>
+        <div class="blog-body">
+          <span class="blog-tag">Custom</span>
+          <h3>Waarom een custom fiets de investering waard is</h3>
+          <p>Een fiets op maat past perfect bij uw lichaam en rijstijl. Dit zijn de voordelen.</p>
+          <a href="#" class="blog-link">Lees meer &rarr;</a>
+        </div>
+      </article>
+      <article class="blog-card" data-animate="fade-up" data-delay="0.32">
+        <div class="blog-img"><img src="images/project2.jpg" alt="Banden kiezen"></div>
+        <div class="blog-body">
+          <span class="blog-tag">Advies</span>
+          <h3>De juiste banden kiezen voor uw fiets</h3>
+          <p>Breed of smal, met profiel of slick? Wij leggen de verschillen uit.</p>
+          <a href="#" class="blog-link">Lees meer &rarr;</a>
+        </div>
+      </article>
+      <article class="blog-card" data-animate="fade-up" data-delay="0.4">
+        <div class="blog-img"><img src="images/carousel.jpg" alt="Fietsveiligheid"></div>
+        <div class="blog-body">
+          <span class="blog-tag">Veiligheid</span>
+          <h3>Veilig fietsen in het donker: verlichting &amp; reflectie</h3>
+          <p>De belangrijkste regels en de beste verlichtingsopties voor uw fiets.</p>
+          <a href="#" class="blog-link">Lees meer &rarr;</a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta" id="contact">
+  <div class="cta-bg">
+    <img src="images/cta-bg.jpg" alt="Werkplaats">
+  </div>
+  <div class="cta-overlay"></div>
+  <div class="container cta-content" data-animate="fade-up">
+    <h2>Fiets aan een beurt toe?</h2>
+    <p>Maak vandaag nog een afspraak en rijd morgen weer zorgeloos door Amsterdam.</p>
+    <a href="#" class="btn btn-primary btn-lg">Plan uw afspraak</a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <a href="#" class="logo">Fiets<span>Vakwerk</span></a>
+      <p>Vakkundige fietsenmaker in Amsterdam. Al 15 jaar uw partner voor reparatie, onderhoud en custom builds.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Diensten</h4>
+      <ul>
+        <li><a href="#diensten">Reparatie</a></li>
+        <li><a href="#diensten">Onderhoud</a></li>
+        <li><a href="#diensten">E-bike service</a></li>
+        <li><a href="#diensten">Custom builds</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Pagina's</h4>
+      <ul>
+        <li><a href="#over">Over ons</a></li>
+        <li><a href="#projecten">Projecten</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <ul>
+        <li>Prinsengracht 312, Amsterdam</li>
+        <li>020 - 123 4567</li>
+        <li>info@fietsvakwerk.nl</li>
+      </ul>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <p>&copy; 2026 FietsVakwerk. Alle rechten voorbehouden.</p>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="script.js"></script>
+
+    // Before/After slider
+    (function() {
+      var before = document.getElementById('baBefore');
+      var label = document.getElementById('baLabel');
+      if (!before || typeof gsap === 'undefined') return;
+      gsap.registerPlugin(ScrollTrigger);
+      var tl = gsap.timeline({
+        scrollTrigger: { trigger: '.ba-section', start: 'top top', end: '+=200%', pin: true, scrub: 0.5, anticipatePin: 1 }
+      });
+      tl.fromTo(before, { clipPath: 'inset(0 0 0 0)' }, { clipPath: 'inset(0 100% 0 0)', duration: 1, ease: 'none' });
+      tl.fromTo(label, { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.4, ease: 'power2.out' }, 0.5);
+    })();
+
+</body>
+</html>
